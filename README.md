@@ -30,7 +30,6 @@ This system handles real-world robotics and aerospace integration hurdles:
    ros2 launch turtlebot3_gazebo empty_world.launch.py
 2. **Launch the Target Pathing (Terminal 2):**
    source /opt/ros/humble/setup.bash
-   # Source your specific workspace containing the AGV control package
    source ~/multi_agent_ws/install/setup.bash 
    ros2 run agv_control random_walk 
 3. **Launch the Drone Firmware (Terminal 3):**
