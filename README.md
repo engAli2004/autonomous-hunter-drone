@@ -35,13 +35,13 @@ This system handles real-world robotics and aerospace integration hurdles:
    ros2 run agv_control random_walk 
 3. **Launch the Drone Firmware (Terminal 3):**
    ```bash
-  cd ~/PX4-Autopilot
-  HEADLESS=1 make px4_sitl gazebo
+   cd ~/PX4-Autopilot
+   HEADLESS=1 make px4_sitl gazebo
 4. **Launch the AI Vision Controller (Terminal 4):**
     ```bash
-   source /opt/ros/humble/setup.bash
-   cd ~/autonomous-hunter-drone
-   python3 src/yolo_tracker.py
+    source /opt/ros/humble/setup.bash
+    cd ~/autonomous-hunter-drone
+    python3 src/yolo_tracker.py
 
 **Future Roadmap**
 **Upgrade the rigid Proportional (P) Controller to a full PID Controller for smoother acceleration curves and reduced target overshoot.
