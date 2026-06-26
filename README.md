@@ -1,7 +1,11 @@
 # Autonomous Vision-Based Hunter-Killer Drone
 **A closed-loop, multi-agent tracking system integrating ROS 2, PX4 Autopilot, and YOLOv8.**
 
-<video src="media/chase_demo.mp4" autoplay loop muted playsinline width="100%"></video>
+
+
+https://github.com/user-attachments/assets/dcbaedc4-c625-4dc6-919d-b1c4c62388e7
+
+
 
 ## Executive Summary
 This project bridges the gap between deep learning and aerospace control systems. It is a heterogeneous simulation where a multi-rotor drone autonomously hunts and pursues an unmanned ground vehicle (TurtleBot3) in a dynamic 3D environment. 
