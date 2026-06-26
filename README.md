@@ -1,6 +1,10 @@
 # Autonomous Vision-Based Hunter-Killer Drone
 **A closed-loop, multi-agent tracking system integrating ROS 2, PX4 Autopilot, and YOLOv8.**
 
+
+https://github.com/user-attachments/assets/61a625c2-60f0-4033-a6a0-789c022e8d26
+
+
 <video src="media/chase_demo.mp4" autoplay loop muted playsinline width="100%"></video>
 
 ## Executive Summary
