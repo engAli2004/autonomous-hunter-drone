@@ -19,7 +19,7 @@ Instead of relying on rigid, pre-programmed waypoints, the drone uses real-time 
 * **Computer Vision:** YOLOv8 Nano & OpenCV
 * **Flight Communications:** MAVLink / MicroXRCE-DDS
 
-## The Engineering Challenge (Unique Value)
+## The Engineering Challenge
 This system handles real-world robotics and aerospace integration hurdles:
 
 * **Hardware-in-the-Loop Realism:** The drone operates using professional PX4 firmware. Flight commands respect real-world physics constraints, active GPS drift handling, and strict preflight arming failsafes.
